@@ -18,4 +18,4 @@ gem "rubocop", "~> 1.21"
 
 gem "addressable", "~> 2.8"
 
-gem 'nokogiri-happymapper', "~> 0.10", require: 'happymapper'
+gem "nokogiri-happymapper", "~> 0.10", require: "happymapper"
