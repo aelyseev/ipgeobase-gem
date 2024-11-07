@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query>
+    <status>success</status>
+    <country>Italy</country>
+    <countryCode>IT</countryCode>
+    <region>52</region>
+    <regionName>Tuscany</regionName>
+    <city>Arezzo</city>
+    <zip>52100</zip>
+    <lat>43.4631</lat>
+    <lon>11.8783</lon>
+    <timezone>Europe/Rome</timezone>
+    <isp>Aruba S.p.A. Network</isp>
+    <org>Aruba S.p.A. - Shared Hosting and Mail services</org>
+    <as>AS31034 Aruba S.p.A.</as>
+    <query>62.149.128.40</query>
+</query>

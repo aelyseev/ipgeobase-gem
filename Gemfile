@@ -7,12 +7,15 @@ gemspec
 
 group :test do
   gem "minitest", "~> 5.0"
+  gem "webmock", "~> 3.24"
 end
 
 gem "rake", "~> 13.0"
 
+gem "bcrypt"
+
 gem "rubocop", "~> 1.21"
 
-gem "addressable", "~> 1.0"
+gem "addressable", "~> 2.8"
 
 gem 'nokogiri-happymapper', "~> 0.10", require: 'happymapper'

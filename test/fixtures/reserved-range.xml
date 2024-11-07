@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query>
+    <status>fail</status>
+    <message>reserved range</message>
+    <query>0.0.0.0</query>
+</query>

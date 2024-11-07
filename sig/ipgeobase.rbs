@@ -1,6 +1,16 @@
-
 module Ipgeobase
+  API_BASE: String
   VERSION: String
-  # See the writing guide of rbs: https://github.com/ruby/rbs#guides
-  def self.lookup: (String) -> string
+
+  class LookupResult
+    attr_reader city: String
+    attr_reader country: String
+    attr_reader countryCode: String
+    attr_reader lat: Float
+    attr_reader lon: Float
+  end
+
+  def self.build_url: (String) -> URI::Generic
+
+  def self.lookup: (String) -> Ipgeobase::LookupResult
 end
