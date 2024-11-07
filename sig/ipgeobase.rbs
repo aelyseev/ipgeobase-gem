@@ -13,4 +13,8 @@ module Ipgeobase
   def self.build_url: (String) -> URI::Generic
 
   def self.lookup: (String) -> Ipgeobase::LookupResult
+
+  def self.make_request: (URI::Generic) -> String
+
+  def self.parse_xml: (String) -> Hash[String, Integer | Float | String]
 end
